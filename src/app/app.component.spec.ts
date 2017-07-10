@@ -29,7 +29,7 @@ describe('AppComponent', () => {
   it(`should have as title 'app works!'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    //コンポーネントのインsタンスからプロパティtitleの値を取得
+    //コンポーネントのインスタンスからプロパティtitleの値を取得
     //titleの値と正常値('app works!)の評価
     expect(app.title).toEqual('app works!');
   }));
